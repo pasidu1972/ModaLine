@@ -1,0 +1,103 @@
+.main-body {
+  background-image: url("resourses/background-body.svg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.logo {
+  background-image: url("resourses/logo.svg");
+  height: 100px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  
+}
+@font-face {
+  font-family: "Quicksand";
+  src: url("font/Quicksand-Medium.ttf");
+}
+
+@font-face {
+  font-family: "honey";
+  src: url("font/HoneyScript-Light.ttf");
+}
+
+* {
+  font-family: "Quicksand";
+  font-size: 14px;
+}
+
+.title01 {
+  font-family: honey;
+  font-size: 50px;
+  letter-spacing: 3px;
+  font-weight: bold;
+}
+
+.background {
+  background-image: url("resourses/background.svg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.title02 {
+  font-size: 25px;
+  font-weight: bold;
+  font-family: "Quicksand";
+}
+
+.cart-icon {
+  background-image: url("resourses/cartico.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.poster-img-1 {
+  height: 500px;
+  background-repeat: no-repeat;
+}
+
+.poster-caption {
+  margin-bottom: 150px;
+}
+
+.poster-title {
+  color: black;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.poster-txt {
+  color: gray;
+  font-size: 20px;
+}
+
+.poster-caption-1 {
+  margin-bottom: 70px;
+  margin-right: 280px;
+}
+
+.pm {
+  height: 65px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.pm1 {
+  background-image: url("resourses/payment method images/visa_img.png");
+}
+
+.pm2 {
+  background-image: url("resourses/payment method images/mastercard_img.png");
+}
+
+.pm3 {
+  background-image: url("resourses/payment method images/american_express_img.png");
+}
+
+.pm4 {
+  background-image: url("resourses/payment method images/paypal_img.png");
+}
