@@ -10,7 +10,8 @@
     <link rel="icon" href="img2/l1.png">
 </head>
 
-<body>
+<body style="background-color: #D9D9D9;">
+
     <div>
 
         <!--HEDDRE-DIV-->

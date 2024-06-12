@@ -29,7 +29,7 @@ require "connection.php";
 
 </head>
 
-<body>
+<body style="background-color: #D9D9D9;">
 
 
 
@@ -48,15 +48,40 @@ require "connection.php";
 
         <div>
             <ul id="navbar">
-                <li><a class="active" class="active" href="home.php">Home</a></li>
-                <!-- <li><a href="shop.php">Shop</a></li> -->
-                <li><a href="addProduct.php">Add Product</a></li>
-                <li><a href="watchlist.php">Watchlist</a></li>
-                <li><a href="advancedSearch.php">Advanced</a></li>
-                <li><a href="about.php">About</a></li>
+                
+               
+                
                 <li><a href="cart.php"><img style="size: 100px;margin-top:2px;width:20px;height:20px;" src="resourses/Shopping Bag.png" alt=""></></a></li>
                 <li><a href="userProfile.php"><img style="size: 100px;margin-top:2px;width:20px;height:20px;" src="resourses/Male User.png" alt=""></></a></li>
                 <li><a href="index.php#"><img  style="size: 100px;margin-top:2px;width:20px;height:20px;" src="resourses/Logout.png" alt=""></></a></li>
+               
+
+                
+            </ul>
+        </div>
+
+        <!-- <div id="mobile">
+            <i id="bar" class="fas fa-outdent"></i>
+        </div> -->
+
+    </section>
+
+
+   
+
+    <!--HEDDRE-DIV-->
+
+    <section id="header" style="height: 20px; background-color: #D9D9D9;">
+
+    
+        <div class="liq" style="margin-left: 200px;margin-right:0px;">
+            <ul id="navbar" style="width: 1000px; height: 20px; font-weight: 8px; margin-right:100px;" >
+                <li style="margin-top: 10px;"><a href="home.php">Home</a></li>
+              
+                <li style="margin-top: 10px;"><a href="addProduct.php">Add Product</a></li>
+                <li style="margin-top: 10px;"><a href="watchlist.php">Watchlist</a></li>
+                <li style="margin-top: 10px;"><a href="advancedSearch.php">Advanced</a></li>
+                <li style="margin-top: 10px;"><a href="about.php">About</a></li>
                
 
                 

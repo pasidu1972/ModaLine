@@ -363,7 +363,7 @@ html:not(.dark-style) .account-settings-links .list-group-item.active {
     align-items: center;
     justify-content: space-between;
     padding: 20px 80px;
-    background: #e3e5f3;
+    background: #f3ecec;
     z-index: 999;
     position: sticky;
     top: 0;
@@ -503,8 +503,6 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 20px 80px;
-  background: #e3e5f3;
-  box-shadow: 0 5px 15px rgb(0, 0, 0.06);
   z-index: 999;
   position: sticky;
   top: 0;
@@ -533,7 +531,7 @@ body {
 
 #navbar li a:hover,
 #navbar li a.active {
-  color: #98002C;
+  color: #0062ff;
 }
 
 #navbar li a.active::after,
@@ -541,11 +539,12 @@ body {
   content: "";
   width: 30%;
   height: 2px;
-  background: #98002C;
+  background: #0062ff;
   position: absolute;
   bottom: -4px;
   left: 20px;
 }
+
 #hero {
   background-image: url(img/hero4.png);
   height: 90vh;
@@ -960,7 +959,7 @@ footer .copyright {
 
 #page-header h2,
 #page-header p {
-  color: #fff;
+  color: #ffffff;
 }
 
 #pagination {

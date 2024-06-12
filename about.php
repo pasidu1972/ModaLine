@@ -17,7 +17,8 @@
 
 </head>
 
-<body>
+<body style="background-color: #D9D9D9;">
+>
 
     <!--HEDDRE-DIV-->
 

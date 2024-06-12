@@ -17,16 +17,191 @@ require "connection.php";
     <link rel="stylesheet" href="style.css" />
 
     <link rel="icon" href="img2/l1.png">
-    <title>Advanced Search | MODALINE</title>
+    <title>SYNAP</title>
+
+    <style>
+
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #1a1a1a; /* Dark background */
+    color: #f0f0f0; /* Light text */
+}
+
+/* Header section */
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #333;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#header .logo {
+    max-height: 50px;
+}
+
+/* Search form styles */
+.s010 {
+    padding: 20px;
+    background-color: #2a2a2a; /* Dark background for search form */
+    border-radius: 10px;
+    box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+}
+
+.inner-form {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #333; /* Dark background for inner form */
+    border-radius: 10px;
+}
+
+.input-field {
+    margin-bottom: 20px;
+}
+
+.input-select select, .form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #555; /* Border color */
+    border-radius: 5px;
+    background-color: #444; /* Dark background for inputs */
+    color: #fff; /* Light text for inputs */
+}
+
+.basic-search .input-field {
+    display: flex;
+    align-items: center;
+}
+
+.basic-search .form-control {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    background-color: #444;
+    color: #fff;
+}
+
+.icon-wrap {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.icon-wrap svg {
+    fill: #fff; /* White color for icons */
+}
+
+.advance-search .desc {
+    display: block;
+    margin-bottom: 20px;
+    font-size: 36px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.advance-search .row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.advance-search .row .input-field {
+    flex: 1;
+    min-width: 200px;
+}
+
+.advance-search .group-btn {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.advance-search .btn-delete, .advance-search .btn-search {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.advance-search .btn-delete {
+    background-color: #f44336;
+    color: #fff;
+}
+
+.advance-search .btn-search {
+    background-color: #1a1a1a; /* Dark background */
+    color: #fff;
+    border: 2px solid #4CAF50; /* Green border */
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.advance-search .btn-search:hover {
+    background-color: #4CAF50; /* Green background on hover */
+    border-color: #1a1a1a; /* Dark border on hover */
+}
+
+.advance-search .btn-search:active {
+    background-color: #388E3C; /* Darker green when clicked */
+    border-color: #1a1a1a;
+}
+
+.advance-search .btn-search:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(76, 175, 80, 0.5); /* Green outline */
+}
+
+/* Results area styles */
+.bg-body {
+    margin-top: 20px;
+    box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #2a2a2a; /* Dark background for results */
+}
+
+#view_area {
+    padding: 40px 0;
+}
+
+#view_area .bi-search {
+    font-size: 100px;
+    color: #fff;
+}
+
+#view_area .h1 {
+    font-size: 24px;
+    color: #fff;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+    </style>
     
   </head>
-  <body>
+  <body style="background-color: #D9D9D9;">
 
  <!--HEDDRE-DIV-->
 
  <section id="header">
         <a href="home.php"><img src="img2/logo (2).png" class="logo" alt=""></a>
-
 
 
 
@@ -42,6 +217,8 @@ require "connection.php";
                 
             </ul>
         </div>
+
+       
 
         <!-- <div id="mobile">
             <i id="bar" class="fas fa-outdent"></i>

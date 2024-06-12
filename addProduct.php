@@ -14,8 +14,9 @@
 
 </head>
 
-<body>
+<body style="background-color: #D9D9D9;">
 <!--HEDDRE-DIV-->
+
         
 <section id="header">
         <a href="home.php"><img src="img2/logo (2).png"  class="logo" alt=""></a>

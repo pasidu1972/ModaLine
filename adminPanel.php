@@ -20,8 +20,8 @@ if (([""])) {
 		<!-- My CSS -->
 		<link rel="stylesheet" href="adminpanel.css">
 		<link rel="stylesheet" href="bootstrap.css" />
-		<link rel="icon" href="resourses/zarad.svg">
-		<title>AdminHub | zarad</title>
+		<link rel="icon" href="img2/logo (1).png">
+		<title>Admin pannel | modaline</title>
 	</head>
 
 	<body>
@@ -31,7 +31,7 @@ if (([""])) {
 		<section id="sidebar">
 			<a href="#" class="brand">
 				<i class='bx bxs-smile'></i>
-				<span class="text">AdminHub</span>
+				<span class="text">Admin pannel </span>
 			</a>
 			<ul class="side-menu top">
 				<li class="active">
@@ -66,12 +66,7 @@ if (([""])) {
 				</li>
 			</ul>
 			<ul class="side-menu">
-				<li>
-					<a href="#">
-						<i class='bx bxs-cog'></i>
-						<span class="text">Settings</span>
-					</a>
-				</li>
+				
 				<li>
 					<a href="index.php" class="logout">
 						<i class='bx bxs-log-out-circle'></i>
@@ -145,7 +140,7 @@ if (empty($image_data["path"])) {
 					<li>
 						<i class='bx bxs-calendar-check'></i>
 						<span class="text">
-							<h3>1020</h3>
+							<h3>02</h3>
 							<p>New Order</p>
 						</span>
 					</li>
@@ -165,7 +160,7 @@ if (empty($image_data["path"])) {
 					<li>
 						<i class='bx bxs-dollar-circle'></i>
 						<span class="text">
-							<h3>$2543</h3>
+							<h3>$25</h3>
 							<p>Total Sales</p>
 						</span>
 					</li>
